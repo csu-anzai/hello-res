@@ -1,0 +1,14 @@
+body{
+    background-color:#b0c4de;
+    /*background-image: url("../img/lb.jpg");*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: top;*/
+}
+html{
+    font-size: 20px;
+}
+#dive{
+    width: 500px;
+    height: 443px;
+    background-image: url("../img/pkq.jpg");
+}

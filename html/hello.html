@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="../js/vue.min.js"></script>
+    <script type="text/javascript" src="../js/hello.js"></script>
+
+
+</head>
+<body onload="init()">
+    <div id="vie">
+        val: {{val}}<br>
+        msg: {{msg}}<br>
+        <input type="text" v-model="msg">
+    </div>
+
+    <div id="app">
+        <ol>
+            <li v-for="site in sites">
+                {{ site }}
+            </li>
+        </ol>
+    </div>
+
+    <button type="button" onclick="onclic()">点击</button>
+    <button type="button" onclick="helloVue()">点击2</button><br>
+
+    <form id="formx" method="get" action="" onsubmit="return submitx()">
+        姓名：<input type="text" name="name"><br>
+        年龄：<input type="text" name="age"><br>
+        <input type="submit" value="submit">
+    </form>
+
+    <script type="text/javascript" src="../js/nice_vue.js"></script>
+</body>
+</html>
